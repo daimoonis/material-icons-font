@@ -6,7 +6,21 @@
   "license": "Apache-2.0",
   "name": "material-icons-font",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "scripts": {},
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "main": "\"\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daimoonis/material-icons-font.git"
+  },
+  "keywords": [
+    "material",
+    "icons",
+    "font"
+  ],
+  "author": "daimoonis",
+  "bugs": {
+    "url": "https://github.com/daimoonis/material-icons-font/issues"
+  },
+  "homepage": "https://github.com/daimoonis/material-icons-font#readme"
 }
