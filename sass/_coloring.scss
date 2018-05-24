@@ -1,0 +1,17 @@
+/* Rules for using icons as black on a light background. */
+
+.#{$MaterialIcons_DefaultFontClassName} {
+    &.md-dark {
+        color: rgba(0, 0, 0, 0.54);
+    }
+    &.md-dark.md-inactive {
+        color: rgba(0, 0, 0, 0.26);
+    }
+    /* Rules for using icons as white on a dark background. */
+    &.md-light {
+        color: rgba(255, 255, 255, 1);
+    }
+    &.md-light.md-inactive {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}

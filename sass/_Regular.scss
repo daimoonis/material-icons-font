@@ -1,0 +1,10 @@
+/* BEGIN Regular */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    @include MaterialIcons_FontDef($MaterialIcons_FontPath, $MaterialIcons_FontName, $MaterialIcons_FontVersion, "Regular");
+}
+
+/* END Regular */
