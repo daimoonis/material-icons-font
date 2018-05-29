@@ -7,13 +7,15 @@
   "name": "material-icons-font",
   "optionalDependencies": {},
   "scripts": {},
-  "version": "1.2.0",
+  "version": "1.4.0",
   "main": "\"\"",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daimoonis/material-icons-font.git"
   },
   "keywords": [
+    "material-icons",
+    "material-icons-font",
     "material",
     "icons",
     "font"
