@@ -5,3 +5,14 @@
     url('#{$FontPath}/#{$FontName}-#{$FontType}.woff?v=#{$FontVersion}') format('woff'),
     url('#{$FontPath}/#{$FontName}-#{$FontType}.ttf?v=#{$FontVersion}') format('truetype');
 }
+
+@function MaterialIcons_Content($codepoint) {
+    @return unquote('"\\#{$codepoint}"');
+}
+
+@mixin MaterialIcons_Icon($name, $pseudo: 'before') {
+    $codepoint: map-get($MaterialIcons_Codepoints, $name);
+    &:#{$pseudo} {
+        content: MaterialIcons_Content($codepoint);
+    }
+}
