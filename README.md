@@ -12,6 +12,10 @@ or
 
 npm install material-icons-font --save
 
+Version 1.x is based on https://github.com/google/material-design-icons
+
+Version 2.x is based on community update at https://github.com/jossef/material-design-icons-iconfont
+
 ## Usage
 
 ### Direct css usage
