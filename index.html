@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <base href="./">
+        <link media="all" rel="stylesheet" href="material-icons-font.css">
+    </head>
+    <script>
+        fetch('codepoints.json')
+            .then(response => response.json())
+            .then(data => {
+                for (const key in data) {
+                    if (data.hasOwnProperty(key)) {
+                        const element = data[key];
+                        var elem = document.createElement('i');
+                        elem.classList.add('material-icons');
+                        elem.textContent = key;
+                        document.body.appendChild(elem);
+                    }
+                }
+            });
+    </script>
+</html>
